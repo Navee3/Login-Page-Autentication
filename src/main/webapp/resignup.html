@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>QES Signup</title>
+<link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body>
+	<div class="center">
+		<h1>User Already exists try other!</h1>
+		<form method="post" action = "signup">
+			<div class="text_field">
+				<input type="text" name ="firstname" required>
+				<span></span>
+				<label>FirstName</label>
+			</div>
+			<div class="text_field">
+				<input type="text" name ="lastname" required>
+				<span></span>
+				<label>LastName</label>
+			</div>
+			<div class="text_field">
+				<input type="text" name = "username" required>
+				<span></span>
+				<label>UserName</label>
+			</div>
+			<div class="text_field">
+				<input type="email" name = "email" required>
+				<span></span>
+				<label>E-mail Id</label>
+			</div>
+			<div class="text_field">
+				<input type="password" name = password required>
+				<span></span>
+				<label>Create Password</label>
+			</div>
+			<div class="text_field">
+				<input type="password" name = "cpassword" required>
+				<span></span>
+				<label>Confirm Password</label>
+			</div>
+			
+			<input id="signup" type="submit" value="signup">
+			<div class="signup_link">
+				If Already having account!<a href="login.html"> Login here</a>			
+			</div>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
